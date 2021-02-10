@@ -1,4 +1,4 @@
 build:
 	mkdir -p functions
-	go mod dowload
-	go build -o functions/hello-lambda handlers
+	go mod download
+	go build -o functions/hello-lambda handlers/main.go
